@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='UNISC_PDM_GEO_VOICE'

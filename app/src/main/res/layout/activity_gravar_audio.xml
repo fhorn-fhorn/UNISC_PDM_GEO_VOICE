@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateAlwaysHidden"
+    tools:context=".GravarAudioActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtViewGravarAudioNomeAudio"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:id="@+id/edtViewGravarAudioNomeAudioValor"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:id="@+id/btnIniciarGravarAudio"
+        android:onClick="btnIniciarGravarAudioOnClick"
+        android:text="@string/btnIniciarGravarAudio"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="00:00.000"
+        android:id="@+id/txtViewGravarAudioDuracaoValor"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewGravarAudioLatitude"
+            android:text="@string/txtViewGravarAudioLatitude"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewGravarAudioLatitudeValor"
+            android:text="."
+            />
+            <!-- android:text="-29.733055555556"  -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewGravarAudioLongitude"
+            android:text="@string/txtViewGravarAudioLongitude"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtViewGravarAudioLongitudeValor"
+            android:text="."
+            />
+            <!-- android:text="-52.414444444444" -->
+</LinearLayout>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:id="@+id/btnTocarAudioGravado"
+    android:onClick="btnTocarAudioGravadoOnClick"
+    android:text="@string/btnTocarAudioGravado"
+    />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:textSize="25sp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:text="00:00.000"
+    android:id="@+id/txtViewReproducaoAudioDuracaoValor"
+    />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:id="@+id/btnGravarAudioFechar"
+    android:onClick="btnGravarAudioFecharOnClick"
+    android:text="@string/btnGravarAudioFechar"
+    />
+
+</LinearLayout>

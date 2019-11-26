@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GEO VOICE RECORDER</string>
+
+    <string name="txtViewMensagemBoasVindas">Olá, bem-vindo ao GEO VOICE RECORDER.</string>
+    <string name="btnGravarNovoAudio">GRAVAR NOVO ÁUDIO</string>
+    <string name="btnListarAudiosGravados">LISTAR ÁUDIOS GRAVADOS</string>
+    <string name="btnListarAudiosNoMapa">LISTAR ÁUDIOS NO MAPA</string>
+
+    <string name="txtViewGravarAudioNomeAudio">Nome:</string>
+    <string name="btnIniciarGravarAudio">INICIAR GRAVAÇÃO</string>
+    <string name="btnEncerrarGravarAudio">PARAR</string>
+    <string name="txtViewGravarAudioDuracao">Duração:</string>
+    <string name="txtViewGravarAudioLatitude">Latitude:</string>
+    <string name="txtViewGravarAudioLongitude">Longitude:</string>
+    <string name="btnTocarAudioGravado">REPRODUZIR ÁUDIO</string>
+    <string name="btnPararAudioGravado">PARAR</string>
+    <string name="txtViewReproducaoAudioDuracao">Duração:</string>
+    <string name="btnGravarAudioFechar">GRAVAR ÁUDIO e FECHAR</string>
+
+    <string name="txtViewListagemAudiosNomeAudio">Nome Audio</string>
+    <string name="txtViewListagemAudiosDataHoraAudio">2019-11-22 23:35:00</string>
+    <string name="txtViewListagemAudiosLatitude">Lat: -29.73305</string>
+    <string name="txtViewListagemAudiosLongitude">Lon: -52.41444</string>
+    <string name="txtViewListaAudiosVazia">"*** LISTA VAZIA ***</string>
+
+    <string name="btnAudioPlayerCancelar">CANCELAR</string>
+
+</resources>
+
